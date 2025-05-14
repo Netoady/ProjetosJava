@@ -38,7 +38,6 @@ public class Televisor {
     }
 
     public String toString() {
-        return ligado ?
-        "TV ligada | Canal: "+ canal + "Volume: "+ volume: "TV desligada";
+        return ligado ? "TV ligada | Canal: "+ canal + "Volume: "+ volume: "TV desligada";
     }
 }
